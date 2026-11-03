@@ -1,0 +1,32 @@
+{
+  "name": "vehicle-management-demo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "株式会社 道廣機工 車両管理Webシステム（デモ版）",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc -b"
+  },
+  "dependencies": {
+    "@fontsource-variable/noto-sans-jp": "^5.3.1",
+    "@lucide/vue": "^1.66.0",
+    "chart.js": "^4.6.1",
+    "pinia": "^4.1.0",
+    "vue": "^3.5.44",
+    "vue-chartjs": "^5.3.4",
+    "vue-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.4",
+    "@types/node": "^26.6.6",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@vue/tsconfig": "^0.9.1",
+    "tailwindcss": "^4.3.4",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.5",
+    "vue-tsc": "^3.3.14"
+  }
+}
